@@ -3,7 +3,7 @@
 // let score ="1569"
 
 // let newscore = Number(score)
-// console.log(typeof newscore) // string
+// console.log(typeof newscore) // number
 
 let score ="123abc"
 
@@ -17,6 +17,7 @@ console.log(typeof a) // object
 console.log(a) //null
 
 let b=Number(a)
+
 console.log(b) // 0
 
 let c = undefined
@@ -43,4 +44,10 @@ let bcd=String(abc)
 console.log(bcd)
 
 console.log(typeof bcd) //string
+
+let gameCounter = 100
+gameCounter++;
+console.log(gameCounter);//101
+++gameCounter;
+console.log(gameCounter); //102
 
