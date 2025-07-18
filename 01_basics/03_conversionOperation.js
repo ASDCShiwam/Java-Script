@@ -1,13 +1,17 @@
-//let score =1569
+let score =1569
 
-// let score ="1569"
+let score1 ="1569"
 
-// let newscore = Number(score)
-// console.log(typeof newscore) // number
+let newscore = Number(score1)
+console.log(typeof newscore) // number
 
-let score ="123abc"
-
-let newscore = Number(score)
+let score2 ="123abc"
+let arr = [{
+    name:"sdbvjhgbfj",age:56
+}, {
+    a:1}]
+console.log(typeof arr)
+let newscore1 = Number(score)
 console.log(typeof newscore) // number
 //but
 console.log(newscore) // Nan
@@ -51,3 +55,16 @@ console.log(gameCounter);//101
 ++gameCounter;
 console.log(gameCounter); //102
 
+
+
+let obj = ()=>{}
+
+
+function abc() {
+
+}
+
+(function u() {
+    
+})()
+console.log(typeof obj,typeof abc, typeof u)
