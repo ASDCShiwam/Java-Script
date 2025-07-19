@@ -55,4 +55,8 @@ let a="5" -5+"5"+5
 let b=5-"5"
 let c="10"-"5"
 console.log(a, b, a+b, c)
+let d="5"+5
+console.log(typeof d)
+
+
 
