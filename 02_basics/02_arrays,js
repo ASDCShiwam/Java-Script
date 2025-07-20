@@ -1,0 +1,24 @@
+const arr=["sdmlm","lmdklnkl","sdkfnk"]
+const arr1=["dsk","ejiw","ewkgwey"]
+
+//arr.push(arr1)
+//console.log(arr) //[ 'sdmlm', 'lmdklnkl', 'sdkfnk', [ 'dsk', 'ejiw', 'ewkgwey' ] ]
+const arr2=arr.concat(arr1) // concat return new array
+console.log(arr2)
+
+//spread
+
+const arr3=[...arr,...arr1]
+console.log(arr3) // spread also use to concatination
+
+//flat
+
+const arr4=[1,2,3,[4,5,6],7,8,[9,10,[11,12]]]
+const arr5=arr4.flat(Infinity) // infinity for depth we can also pass number here
+console.log(arr5)
+
+//convert to array
+console.log(Array.from("dcnkjdsbj"))  //['d', 'c', 'n','k', 'j', 'd','s', 'b', 'j']
+console.log(Array.isArray("edhugwuib")) // true or false
+
+console.log(Array.from({name: "Shiwam"})) // empty ARRAY

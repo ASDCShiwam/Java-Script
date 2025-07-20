@@ -18,10 +18,10 @@ const arr=[0,1,2,3,4,5,6]
 // arr.push(9)//remove last
 // arr.pop()
 // console.log(arr)
-// arr.unshift(10) // add in start
-// console.log(arr)
-// arr.shift(10)//remove first
-// console.log(arr)
+//arr.unshift(10) // add in start
+//console.log(arr)
+//arr.shift()//remove first
+console.log(arr)
 // console.log(arr.includes(2))// true if present otherwise false
 // console.log(arr.indexOf(3))
 
