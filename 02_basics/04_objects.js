@@ -62,3 +62,26 @@ const course = {
 const {courseInstructor: instructor} = course
 console.log(course.courseInstructor);
 console.log(instructor);
+
+// destructuring
+
+
+const course1={
+    coursename:"jsuser",
+    courseprice:"999",
+    courseinst:"hitesh"
+}
+
+const{courseinst:inst}=course1
+//console.log(courseinst)
+console.log(inst)
+
+{
+
+}
+
+[
+    {},
+    {},
+    {}
+]

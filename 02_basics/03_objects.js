@@ -25,3 +25,11 @@ jsuser.greeting12=function(){
     console.log(`Hello js user,${this.name}`);
 }
 console.log(jsuser.greeting12())
+
+
+const arr=[1,2,"ljsaehfjhegrj",function sum(a=3,b=5){
+return (a+b)
+},4,5,]
+
+console.log(arr[3](10,20))
+
