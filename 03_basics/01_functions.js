@@ -28,3 +28,34 @@ function lginuser(username){
 
 console.log(lginuser("Shiwam"))//Shiwam just logged in
 console.log(lginuser())//undefined just logged in
+
+//
+
+function calcartprice(...num){
+    
+    return num;
+
+}
+console.log(calcartprice(5,4,6))
+
+//pass object in function
+const user={
+    username:"fnkbvfkjn",
+    price:9000
+}
+function handleobject(anyobject){
+    console.log(`user name is ${anyobject.username} price is ${anyobject.price}`)
+
+}
+handleobject(user)
+// directly pass object in function
+handleobject({username:"asdnkn",price:56})
+
+//pass array in function
+
+const array=[2,5,4,7,8,9]
+function returnsecval(getarray){
+    return getarray[1]
+
+}
+console.log(returnsecval(array))
